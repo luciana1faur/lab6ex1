@@ -7,10 +7,12 @@ int main() {
 
   cout << "2 la 0 = 1" << endl;
 
-  for (x = 1; x < 8; x++){
-    
+//scrierea cu WHILE 
+  x = 1;
+  while (x < 8){
     puteriDoi = puteriDoi * 2;
-
     cout << "2 la " << x << " = " << puteriDoi << endl;
+    x++;
   }
+  
 }
